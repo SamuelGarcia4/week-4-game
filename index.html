@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+</head>
+<body>
+    <div class="title">
+        <h1>Crystal Collector</h1>
+    </div>
+    <div class="instructions">
+        <h2><strong>Instructions:</strong></h2>
+        <p>You will be given a random number to start with, that is the target score.</p>
+        <p>Clicking the crystals will increase your score by a random number set  at the beginning of the game.</p>
+        <p>Match your score to the target score to win!</p>
+    </div>
+    <div class="endNumber">
+        <h3>Target Score: 
+            <div class="targetDiv"></div>
+        </h3>
+    </div>
+    <div class="winLoss">
+        <h3>Wins: 
+                <div class="wins"></div>
+            Losses: 
+                <div class="losses"></div>    
+        </h3>
+    </div>
+    <div class="gems">
+        <img src="assets/images/gem1.jpg" class="imgs" id="gemOne" alt="Gem One doesn't work"> 
+        <img src="assets/images/gem2.jpg" class="imgs" id="gemTwo" alt="Gem Two doesn't work">
+        <img src="assets/images/gem3.jpg" class="imgs" id="gemThree" alt="Gem Three doesn't work">
+        <img src="assets/images/gem4.jpg" class="imgs" id="gemFour" alt="Gem Four doesn't work">
+    </div>
+    <div class="userScore">
+        <h3>Your Score: 
+            <div id="scoreDiv"></div>
+        </h3>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+    
+</body>
+</html>
